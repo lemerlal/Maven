@@ -7,14 +7,17 @@ public class Ville {
     private int code_postal;
     private String Libelle_acheminement;
     private String Cordonnees_GPS;
+    private String latitude;
+    private String longitude;
     
-	public Ville(String code_commune, String nom_commune, int code_postal, String libelle_acheminement, String cordonnees_GPS) {
+	public Ville(String code_commune, String nom_commune, int code_postal, String libelle_acheminement, String latitude, String longitude) {
 		super();
 		this.code_commune = code_commune;
 		this.nom_commune = nom_commune;
 		this.code_postal = code_postal;
-		Libelle_acheminement = libelle_acheminement;
-		Cordonnees_GPS = cordonnees_GPS;
+		this.Libelle_acheminement = libelle_acheminement;
+		this.latitude = latitude;
+		this.longitude = longitude;
 	}
 	
 	public String getCode_commune() {
@@ -39,13 +42,19 @@ public class Ville {
 		return Libelle_acheminement;
 	}
 	public void setLibelle_acheminement(String libelle_acheminement) {
-		Libelle_acheminement = libelle_acheminement;
+		this.Libelle_acheminement = libelle_acheminement;
 	}
-	public String getGPSx() {
-		return Cordonnees_GPS;
+	public String getLatitude() {
+		return latitude;
 	}
-	public void setGPSx(String cordonnees_GPS) {
-		Cordonnees_GPS = cordonnees_GPS;
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
+	}
+	public String getLongitude() {
+		return longitude;
+	}
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
 	}
 
 
