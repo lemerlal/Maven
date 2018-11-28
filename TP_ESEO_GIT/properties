@@ -1,4 +1,4 @@
 sonar.projectKey=test
 sonar.sources=TP_ESEO_GIT/src/main
 sonar.projectVersion=1.0
-sonar.projectName=TP_ESEO_GIT
+sonar.projectName=TP_Maven
