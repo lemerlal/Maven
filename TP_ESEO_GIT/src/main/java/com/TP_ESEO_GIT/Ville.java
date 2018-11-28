@@ -6,7 +6,6 @@ public class Ville {
     private String nom_commune;
     private int code_postal;
     private String Libelle_acheminement;
-    private String Cordonnees_GPS;
     private String latitude;
     private String longitude;
     
